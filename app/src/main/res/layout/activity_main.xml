@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/images2">
+
+    </ImageView>
+    <EditText
+        android:id="@+id/etID"
+        style="@android:style/Widget.DeviceDefault.AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:padding="15dp"
+        android:hint="@string/hint_id"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:padding="15dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/submit"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:padding="15dp"
+        android:text="@string/textview" />
+</LinearLayout>

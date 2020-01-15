@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MagicIDApplication</string>
+    <string name="hint_id">Please enter ID number</string>
+    <string name="submit">Submit</string>
+    <string name="textview">TextView</string>
+    <string name="dob">Date of birth:</string>
+    <string name="gender">Gender:</string>
+    <string name="nationality">nationality:</string>
+    <string name="newline" />
+    <string name="female">female</string>
+    <string name="male">male</string>
+    <string name="sacit">SA Citizen</string>
+    <string name="permanent">Permanent Resident</string>
+</resources>
